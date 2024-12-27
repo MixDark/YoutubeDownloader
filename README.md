@@ -10,7 +10,7 @@ Una aplicación web desarrollada con Flask que permite descargar videos y musica
 - Organización automática en carpetas separadas para audio y video
 - Interfaz simple e intuitiva
 
-## Tecnologías Utilizadas
+## Tecnologías utilizadas
 - Python 3.x
 - Flask
 - yt-dlp
@@ -18,8 +18,9 @@ Una aplicación web desarrollada con Flask que permite descargar videos y musica
 - HTML/CSS/JavaScript
 
 ## Requerimientos
-- Python 3.x instalado
-- Conexión a Internet
+- Python 3.x 
+- FFmpeg
+- Conexión a internet
 
 ## Instalación desde CLI
 1. Clona el repositorio: 
@@ -36,6 +37,19 @@ python app.py
 4. Si eliges MP4, selecciona la calidad del video
 5. Haz clic en "Descargar"
 6. Haz clic en "Abrir ubicación del archivo" para que visualizarlo
+
+## Estructura del proyecto:
+
+![image](https://github.com/user-attachments/assets/ed40ae8b-a55d-42d3-9cfa-3a4ea66e8ee4)
+
+
+## Archivos faltantes: 
+- Descargar desde: https://drive.google.com/drive/folders/13WA_YyujFrXhLIMP8E0HYontDFuYTbcD?usp=drive_link
+
+ - Agregar  en la carpeta del proyecto como se muestra en la imagen
+
+![image](https://github.com/user-attachments/assets/247ed34a-e3bb-4953-b221-9237c5aea916)
+
 
 ## Capturas de pantalla:
 ![Image1](https://github.com/user-attachments/assets/a9f0fb38-2e08-4784-b12e-aafa9063c1b4)
