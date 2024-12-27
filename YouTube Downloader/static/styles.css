@@ -1,0 +1,142 @@
+/* Fondo de la página */
+body {
+    margin: 0; /* Eliminar márgenes por defecto */
+    padding: 0; /* Eliminar padding por defecto */
+    font-family: Arial, sans-serif; /* Fuente para toda la página */
+    background: linear-gradient(135deg, #2c3e50, #4ca1af); /* Degradado que resalta */
+    color: #ddd; /* Color de texto por defecto */
+    min-height: 100vh; /* Asegura que el fondo cubra toda la página */
+    display: flex; /* Usar flexbox para centrar el contenedor */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Defino el estilo de mi contenedor principal */
+.container {
+    max-width: 600px; /* Ancho máximo para mejor legibilidad */
+    margin: 20px; /* Espacio alrededor del contenedor */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centro el contenido */
+    background-color: rgba(30, 30, 30, 0.85); /* Fondo oscuro y translúcido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+}
+
+/* Estilizo mi campo de entrada de texto */
+input[type="text"] {
+    width: 80%; /* Ancho del campo */
+    padding: 10px; /* Espacio interno */
+    margin: 10px 0; /* Márgenes verticales */
+    background-color: rgba(50, 50, 50, 0.85); /* Fondo oscuro y translúcido */
+    color: #ddd; /* Texto claro */
+    border: 1px solid #555; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilizo mis selectores */
+select {
+    padding: 10px; /* Espacio interno */
+    margin: 10px; /* Márgenes */
+    background-color: rgba(50, 50, 50, 0.85); /* Fondo oscuro y translúcido */
+    color: #ddd; /* Texto claro */
+    border: 1px solid #555; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilizo mi botón de descarga */
+button {
+    padding: 10px 20px; /* Espacio interno */
+    background-color: #1e90ff; /* Azul moderno */
+    color: white; /* Texto en blanco */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor al pasar */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover para mi botón */
+button:hover {
+    background-color: #1c86ee; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Estilo para el contenedor de detalles del video */
+#video-details {
+    margin-top: 20px; /* Espacio superior */
+    display: flex; /* Flexbox para alinear */
+    align-items: center; /* Centrar verticalmente */
+    background-color: rgba(40, 40, 40, 0.85); /* Fondo oscuro y translúcido */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno */
+}
+
+/* Estilo para la miniatura del video */
+#thumbnail {
+    width: 120px; /* Ancho fijo */
+    height: auto; /* Altura automática */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio a la derecha de la miniatura */
+}
+
+/* Estilo para el texto de detalles del video */
+#video-info {
+    flex: 1; /* Texto ocupa el espacio restante */
+    color: #fff; /* Texto claro */
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Organizar los elementos verticalmente */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+#video-title {
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    margin: 0; /* Sin márgenes */
+}
+
+/* Contenedor para "Canal" y "Duración" */
+#video-metadata {
+    display: flex; /* Flexbox para alinear horizontalmente */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alinear verticalmente */
+}
+
+#video-channel,
+#video-duration {
+    margin: 0; /* Sin márgenes extra */
+    color: #bbb; /* Texto gris claro */
+}
+
+/* Estilos para la barra de progreso */
+#progress-container {
+    margin-top: 20px; /* Espacio superior */
+    width: 100%; /* Ocupa todo el ancho */
+    text-align: center; /* Centrar el contenido */
+}
+
+/* Estilo para el mensaje de estado */
+#status {
+    font-size: 16px; /* Tamaño de fuente */
+    color: #fff; /* Texto claro */
+    margin-bottom: 10px; /* Espacio entre el mensaje y la barra */
+}
+
+/* Contenedor de la barra de progreso */
+.progress-bar {
+    height: 20px; /* Hacer la barra más gruesa */
+    width: 100%; /* Ocupa todo el ancho */
+    background-color: #444; /* Fondo oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Recorta el contenido desbordado */
+}
+
+/* Barra de progreso */
+.progress {
+    height: 100%; /* Altura de la barra */
+    width: 0%; /* Inicia sin progreso */
+    background-color: #1e90ff; /* Color azul para el progreso */
+    transition: width 0.3s ease; /* Animación suave para el progreso */
+    display: flex; /* Para centrar el texto */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    color: #fff; /* Color del texto */
+    font-size: 12px; /* Tamaño del texto */
+}
