@@ -1,9 +1,9 @@
 # YouTube Downloader
 
 ## Descripción
-Una aplicación web desarrollada con Flask que permite descargar videos y música de YouTube, tiene soporte para múltiples formatos y la opcion para elegir la calidad del video que prefieras.
+Una aplicación web desarrollada con Flask que permite descargar vídeos y música de YouTube, tiene soporte para múltiples formatos y la opción para elegir la calidad del vídeo que prefieras.
 
-## Capturas de pantalla:
+## Capturas de pantalla
 ![Image1](https://github.com/user-attachments/assets/a9f0fb38-2e08-4784-b12e-aafa9063c1b4)
 
 ![Image2](https://github.com/user-attachments/assets/ba5b1ca0-3896-48a9-aa17-15d1a6dbc05e)
