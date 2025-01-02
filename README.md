@@ -3,6 +3,13 @@
 ## Descripción
 Una aplicación web desarrollada con Flask que permite descargar videos y música de YouTube, tiene soporte para múltiples formatos y la opcion para elegir la calidad del video que prefieras.
 
+## Capturas de pantalla:
+![Image1](https://github.com/user-attachments/assets/a9f0fb38-2e08-4784-b12e-aafa9063c1b4)
+
+![Image2](https://github.com/user-attachments/assets/ba5b1ca0-3896-48a9-aa17-15d1a6dbc05e)
+
+![Image3](https://github.com/user-attachments/assets/fad30b4a-912a-48a9-a3c5-894f6bd0d47b)
+
 ## Características
 - Descarga de audio en formato MP3
 - Descarga de video en formato MP4
@@ -49,11 +56,3 @@ python app.py
  - Agregar  en la carpeta del proyecto como se muestra en la imagen
 
 ![image](https://github.com/user-attachments/assets/247ed34a-e3bb-4953-b221-9237c5aea916)
-
-
-## Capturas de pantalla:
-![Image1](https://github.com/user-attachments/assets/a9f0fb38-2e08-4784-b12e-aafa9063c1b4)
-
-![Image2](https://github.com/user-attachments/assets/ba5b1ca0-3896-48a9-aa17-15d1a6dbc05e)
-
-![Image3](https://github.com/user-attachments/assets/fad30b4a-912a-48a9-a3c5-894f6bd0d47b)
