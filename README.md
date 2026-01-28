@@ -49,7 +49,8 @@ python app.py
 
 
 ## Capturas de pantalla
-<img width="1232" height="910" alt="image" src="https://github.com/user-attachments/assets/81adfbdc-db6e-4eb2-8ecd-d954fd7149a9" />
+<img width="1232" height="910" alt="image" src="https://github.com/user-attachments/assets/81adfbdc-db6e-4eb2-8ecd-d954fd7149a9" />   
+
 
 
 <img width="1249" height="907" alt="image" src="https://github.com/user-attachments/assets/f9fbbb8f-0dd2-4e10-9d90-89cb2f5433d9" />
