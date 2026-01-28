@@ -49,7 +49,6 @@ python app.py
 
 
 ## Capturas de pantalla
+![alt text](image.png)
 
-
-
-
+![alt text](image-1.png)
