@@ -1,58 +1,58 @@
-# YouTube Downloader
+# App-Youtube-HRZ
+# Descargador de YouTube HRZ
 
-## Descripción
-Una aplicación web desarrollada con Flask que permite descargar vídeos y música de YouTube, tiene soporte para múltiples formatos y la opción para elegir la calidad del vídeo que prefieras.
+## 📝 Descripción
+Una aplicación web desarrollada con Flask que permite descargar videos y audio de YouTube de manera sencilla y eficiente. Soporta múltiples formatos y calidades de descarga.
 
-## Capturas de pantalla
-![Image1](https://github.com/user-attachments/assets/a9f0fb38-2e08-4784-b12e-aafa9063c1b4)
+## ✨ Características
+- 🎵 Descarga de audio en formato MP3, M4A y FLAC
+- 🎥 Descarga de video en formato MP4 y otros formatos
+- 🌐 Soporte para múltiples sitios: YouTube, Facebook, Twitter, Instagram, TikTok y más
+- 📊 Selector avanzado de calidad y formato (audio, video, combinados)
+- 🖼️ Vista previa de miniatura, título, canal y duración antes de descargar
+- 📈 Progreso de descarga en tiempo real (porcentaje, velocidad, ETA)
+- 🗂️ Organización automática en carpetas separadas para audio y video
+- ⚙️ Opciones avanzadas: codecs, proxy, argumentos personalizados, cookies por navegador
+- 🔒 Soporte para descargas con cookies y archivos de configuración
+- 🗜️ Compresor de video integrado (x264/x265)
+- 🧩 Interfaz moderna, intuitiva y responsiva
 
-![Image2](https://github.com/user-attachments/assets/ba5b1ca0-3896-48a9-aa17-15d1a6dbc05e)
-
-![Image3](https://github.com/user-attachments/assets/fad30b4a-912a-48a9-a3c5-894f6bd0d47b)
-
-## Características
-- Descarga de audio en formato MP3
-- Descarga de video en formato MP4
-- Múltiples opciones de calidad de video: Mejor calidad disponible, 720p, 480p, 360p
-- Organización automática en carpetas separadas para audio y video
-- Interfaz simple e intuitiva
-
-## Tecnologías utilizadas
+## 🛠️ Tecnologías Utilizadas
 - Python 3.x
 - Flask
 - yt-dlp
 - FFmpeg
 - HTML/CSS/JavaScript
 
-## Requerimientos
-- Python 3.x 
-- FFmpeg
-- Conexión a internet
+## 📋 Requisitos Previos
+- Python 3.x instalado
+- FFmpeg instalado
+- Conexión a Internet
 
-## Instalación desde CLI
-1. Clona el repositorio: 
-git clone https://github.com/MixDark/YoutubeDownloader.git
+## 🚀 Instalación
+1. Clona el repositorio:
+-bash
+git clone https://github.com/Andres-Hincapie-HRZ/App-Youtube-HRZ.git
 2. Instala las dependencias:
+-bash
 pip install -r requirements.txt
 3. Ejecuta la aplicación:
+bash
 python app.py
-
-## Uso
-1. Abre el navegador e ingresa a la dirección `http://localhost:7000`
+## 🎯 Uso
+1. Abre tu navegador y ve a `http://localhost:5000`
 2. Pega la URL del video de YouTube
 3. Selecciona el formato deseado (MP3 o MP4)
 4. Si eliges MP4, selecciona la calidad del video
 5. Haz clic en "Descargar"
-6. Haz clic en "Abrir ubicación del archivo" para que visualizarlo
 
-## Estructura del proyecto:
-
-![image](https://github.com/user-attachments/assets/ed40ae8b-a55d-42d3-9cfa-3a4ea66e8ee4)
+## 📁 Estructura del Proyecto:
 
 
-## Archivos faltantes: 
-- Descargar desde: https://drive.google.com/drive/folders/13WA_YyujFrXhLIMP8E0HYontDFuYTbcD?usp=drive_link
+## ⚠ Los 3 Archivos faltantes: 
+- https://drive.google.com/drive/folders/13WA_YyujFrXhLIMP8E0HYontDFuYTbcD?usp=drive_link
+  
 
- - Agregar  en la carpeta del proyecto como se muestra en la imagen
 
-![image](https://github.com/user-attachments/assets/247ed34a-e3bb-4953-b221-9237c5aea916)
+Descargar y agregar  en la carpeta del proyecto como se muestra en la imagen anterior
+
