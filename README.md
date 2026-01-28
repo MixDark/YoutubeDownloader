@@ -31,7 +31,7 @@ Una aplicación web desarrollada con Flask que permite descargar videos y audio 
 ## 🚀 Instalación
 1. Clona el repositorio:
 -bash
-[git clone https://github.com/Andres-Hincapie-HRZ/App-Youtube-HRZ.git](https://github.com/MixDark/YoutubeDownloader.git)
+git clone https://github.com/MixDark/YoutubeDownloader.git
 2. Instala las dependencias:
 -bash
 pip install -r requirements.txt
