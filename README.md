@@ -1,5 +1,4 @@
-# App-Youtube-HRZ
-# Descargador de YouTube HRZ
+# YouTube Downloader
 
 ## 📝 Descripción
 Una aplicación web desarrollada con Flask que permite descargar videos y audio de YouTube de manera sencilla y eficiente. Soporta múltiples formatos y calidades de descarga.
@@ -17,14 +16,14 @@ Una aplicación web desarrollada con Flask que permite descargar videos y audio 
 - 🗜️ Compresor de video integrado (x264/x265)
 - 🧩 Interfaz moderna, intuitiva y responsiva
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 - Python 3.x
 - Flask
 - yt-dlp
 - FFmpeg
 - HTML/CSS/JavaScript
 
-## 📋 Requisitos Previos
+## 📋 Requisitos previos
 - Python 3.x instalado
 - FFmpeg instalado
 - Conexión a Internet
@@ -46,13 +45,12 @@ python app.py
 4. Si eliges MP4, selecciona la calidad del video
 5. Haz clic en "Descargar"
 
-## 📁 Estructura del Proyecto:
+## 📁 Estructura del proyecto:
 
 
-## ⚠ Los 3 Archivos faltantes: 
+## Capturas de pantalla
+
 - https://drive.google.com/drive/folders/13WA_YyujFrXhLIMP8E0HYontDFuYTbcD?usp=drive_link
   
-
-
 Descargar y agregar  en la carpeta del proyecto como se muestra en la imagen anterior
 
